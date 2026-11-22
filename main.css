@@ -211,6 +211,17 @@ a.disabled {
     cursor: default;
     pointer-events: none;
 }
+.download .btn.disabled {
+    display: inline-block;
+    white-space: normal;
+    background: #ececec;
+    color: #444;
+    opacity: 1;
+    max-width: 100%;
+}
+.download .btn.disabled:hover {
+    background: #ececec;
+}
 .btn.disabled small {
     display: block;
     font-size: 11px;
