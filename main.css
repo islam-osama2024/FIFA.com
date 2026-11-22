@@ -203,3 +203,21 @@
         }
     }
     
+
+
+/* demo/unavailable markers */
+a.disabled {
+    opacity: 0.6;
+    cursor: default;
+    pointer-events: none;
+}
+.btn.disabled small {
+    display: block;
+    font-size: 11px;
+    margin-top: 4px;
+}
+.demo-note {
+    font-size: 12px;
+    opacity: 0.75;
+    margin-top: 8px;
+}
